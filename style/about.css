@@ -44,7 +44,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  
+
 a:hover{
     text-decoration: underline;
   }
@@ -120,4 +120,14 @@ table{
   h1,
   h2{
     text-align: center;
+  }
+
+  @media screen and (max-width: 600px) {
+  .section-tarifs {
+    display: none;
+    }
+  .carre-contenu{
+    text-align: justify;
+    overflow: auto;
+  }
   }

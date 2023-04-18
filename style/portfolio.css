@@ -58,13 +58,13 @@ footer{
 }
 
 .portfolio-section-photos{
-    background-color: white;
-  }
+  background-color: white;
+}
   
-  .portfolio-section-photos h2{
-    color: #242424;
-    margin-bottom: 80px;
-  }
+.portfolio-section-photos h2{
+  color: #242424;
+  margin-bottom: 80px;
+}
   
   .grid-paysages{
     display: grid;
@@ -108,4 +108,16 @@ footer{
   
   .lien-conteneur-photo:hover .photo-hover{
     display: flex;
+  }
+
+  @media screen and (max-width: 600px) {
+    .grid-paysages {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .grid-portraits {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
   }
