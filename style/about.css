@@ -133,14 +133,27 @@ table{
   body{
       background-color: #ff0;
   }
+  h2{
+    color: hsl(240, 3%, 6%);
+  }
+  
+  p,
+  li{
+    font-size: 1.1em;
+    color: hsl(240, 3%, 6%);
+  }
   }
   
   @media screen and (max-width: 601px) and (max-width: 720px){
-      table{
-    color: white;
-    text-align: center;
+  .a-propos-main{
     width: 100%;
-    border-collapse: collapse;
+    margin: auto;
+  }
+  table{
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
   }
   
   td,
